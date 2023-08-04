@@ -42,8 +42,103 @@ nav button{
     border-radius: 44px;
     color: #ffffff;
     border-bottom: 2px solid #022B69;
-    /* color: Orange red; */
+    font-size: 14px;
+    font-weight: 500;
 }
+
+/*hero section*/
+.home_hero_section{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_hero_text{
+    width: 50%;
+}
+
+.home_hero_image{
+    width: 30%;
+}
+
+.home_hero_image img{
+    width: 100%;
+}
+
+.p1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #022B69;
+}
+.education{
+    color: #3DA6C0;
+}
+
+.p2{
+    padding: 0.9% 2.1%;
+    background-color: #B893F6;
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.p3{
+    font-size: 19px;
+    color: #3C3536;
+    margin-top: 3%;
+}
+
+.top button{
+    margin-top: 3%;
+    padding: 10px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F47676;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 44px;
+    color: #ffffff;
+    border-bottom: 2px solid #022B69;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bottom{
+    background: #F7F8FC;
+    padding: 1% 4%;
+    border-radius: 44px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.p4{
+    font-size: 21px;
+    color: #022B69;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 1.5%;
+}
+
+.leading{
+    color: #F47676;
+}
+
 
 /*footer*/
 
