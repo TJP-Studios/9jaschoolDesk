@@ -202,10 +202,10 @@ nav button{
     background-color: #98DFD518;
     padding: 5% 8%;
     text-align: center;
-    /* background-image: url("./assets/balloons-right.png");
-    background-position: 100;
-    background-size: auto;
-    background-repeat: no-repeat; */
+    background-image: url("./assets/balloons-right.png");
+    background-position: 100% 70%;
+    /* background-size: auto; */
+    background-repeat: no-repeat; 
 }
 
 .p8{
