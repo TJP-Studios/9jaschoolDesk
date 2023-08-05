@@ -139,6 +139,221 @@ nav button{
     color: #F47676;
 }
 
+/*summary section*/
+
+.home_summary_section{
+    padding: 2% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.founder_image{
+    width: 40%;
+}
+
+.founder_image img{
+    width: 100%;
+}
+
+.summary_text{
+    width: 40%;
+}
+
+.p5{
+    color: #3DA6C0;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.p6{
+    color: #022B69;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.p7{
+    color: #3C3536;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.btn{
+    margin-top: 3%;
+    padding: 10px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F47676;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 44px;
+    color: #ffffff;
+    border-bottom: 2px solid #022B69;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*features section*/
+
+.home_features_section{
+    font-family: 'Poppins', sans-serif;
+    background-color: #98DFD518;
+    padding: 5% 8%;
+    text-align: center;
+    /* background-image: url("./assets/balloons-right.png");
+    background-position: 100;
+    background-size: auto;
+    background-repeat: no-repeat; */
+}
+
+.p8{
+    color: #022B69;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.features_top{
+    width: 80%;
+    margin: auto auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.card{
+    width: 30%;
+    background-color: white;
+    padding: 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(2, 43, 105, 0.07);
+}
+
+.card-p{
+    color: #022B69;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 2% 0%;
+}
+
+/*share section*/
+.home_share_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 2% 8%;
+    background-image: url('./assets/bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.p9{
+    font-weight: 400;
+    font-size: 36px;
+    color: #022B69;
+}
+
+.phone-div{
+    width: 70%;
+}
+
+.phone-div img{
+    width: 100%;
+}
+
+.list_i{
+    display: flex;
+    align-items: center;
+    flex-basis: 1;
+}
+
+.check-div{
+    width: 8%;
+    margin-right: 3%;
+}
+
+.check-div img{
+    width: 100%;
+}
+
+.check_p{
+    width: 80%;
+}
+.check_p p{
+    font-size: 19px;
+    font-weight: 300;
+    color: #3C3536;
+}
+
+/*call to action*/
+.call-to-action{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F47676;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: url('./assets/balloons-right-second.png');
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+}
+
+.cta_p{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.cta_phones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin-top: auto;
+}
+.cta_phones img{
+    width: 100%;
+}
+
+.cta_text{
+    width: 45%;
+}
+.cta_btn{
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #022B69;
+    padding: 1% 2.5%;
+    border-radius: 8px;
+    border: none;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.cta_btn p{
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.icon-div{
+    width: 20%;
+}
+
+.icon-div img{
+    width: 100%;
+}
+
 
 /*footer*/
 
