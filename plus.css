@@ -1,179 +1,288 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
 /*pricing section styles*/
-.pricing{
-    padding: 2% 8%;
-    font-family: 'Poppins', sans-serif;
-    background-image: url("./assets/star-bg.png");
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.plus_txt{
-    width: 40%;
+.pricing {
+  padding: 2% 8%;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("./assets/star-bg.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.price_card{
-    padding: 8% 10%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 30px;
+.plus_txt {
+  width: 40%;
 }
 
-a{
-    text-decoration: none;
-    color:#7174A0;
-
-}
-.plus_txt_top{
-    display: flex;
-    align-items: center;
-}
-
-.plus_txt_top p{
-    color: #3DA6C0;
-    font-size: 24px;
-    font-weight: 900;
+.price_card {
+  padding: 8% 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
 }
 
-.plus_txt_bottom > p{
- color: #022B69;
- font-size: 31px;
+a {
+  text-decoration: none;
+  color: #7174A0;
+
 }
 
-.plus_txt_logo{
-    margin: 3%;
-    width: 40%;
+.plus_txt_top {
+  display: flex;
+  align-items: center;
 }
 
-.plus_txt_logo img{
-    width: 100%;
+.plus_txt_top p {
+  color: #3DA6C0;
+  font-size: 24px;
+  font-weight: 900;
 }
 
-.price_card{
-    background-color: #F7F8FF;
+.plus_txt_bottom>p {
+  color: #022B69;
+  font-size: 31px;
 }
 
-.c_p{
-    color: #2C2A50;
-    font-size: 24px;
+.plus_txt_logo {
+  margin: 3%;
+  width: 40%;
 }
 
-.c_p2{
-    color:#7174A0;
-    font-size: 14px;
+.plus_txt_logo img {
+  width: 100%;
 }
 
-.plus_card_section{
-    width: 40%;
+.price_card {
+  background-color: #F7F8FF;
+}
+
+.c_p {
+  color: #2C2A50;
+  font-size: 24px;
+}
+
+.c_p2 {
+  color: #7174A0;
+  font-size: 14px;
+}
+
+.plus_card_section {
+  width: 40%;
 }
 
 /*sliding btn*/
 
- /* The switch - the box around the slider */
- .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #7174A0;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #7174A0;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  } 
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
 
-  .switch_btn{
-    display: flex;
-    margin-top: 3%;
-    width: 50;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-  }
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
-  .switch_btn p{
-    color: #7174A0;
-    font-size: 13px;
-  }
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #7174A0;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #7174A0;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switch_btn {
+  display: flex;
+  margin-top: 3%;
+  width: 50;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.switch_btn p {
+  color: #7174A0;
+  font-size: 13px;
+}
 
 /*features section*/
-.plus_features{
-    background-color: #F4767614;
-    padding: 3% 8%;
+.plus_features_wrapper {
+  background-color: #F4767614;
+  padding: 3% 8%;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 31px;
 }
 
-.item{
-    display: flex;
-    align-items: center;
+.plus_features {
+  padding: 3% 8%;
 }
 
-.first_part{
-    width: 40%;
+.plus_features_wrapper>p {
+  color: #022B69;
+  font-size: 29px;
+  width: 70%;
+  margin-bottom: 5%;
 }
 
-.f_p{
-    color: #022B69;
+.item {
+  display: flex;
+  align-items: center;
 }
 
-.f_p2{
-    color: #3C3536;
+.first_part {
+  width: 50%;
 }
 
+.second_part {
+  width: 50%;
+}
+
+.f_p {
+  color: #022B69;
+}
+
+.f_p2 {
+  color: #3C3536;
+}
+
+.item {
+  margin-bottom: 4%;
+}
+
+.item-img {
+  width: 20%;
+  margin-right: 4%;
+}
+
+.item_txt {
+  width: 75%;
+}
+
+.item-img img {
+  width: 100%;
+}
+
+.features_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*moments section*/
+
+.plus_moments_section {
+  background-color: #F7F8FF;
+  padding: 2% 8%;
+}
+
+.moments_top{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+.moments_top > p{
+  color: #022B69;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  width: 40%;
+}
+
+.moment_img{
+  width: 40%;
+}
+
+.moment_img img{
+  width: 100%;
+}
+
+.moments_bottom{
+  display: flex;
+  align-items: center;
+}
+
+/*super section*/
+
+.super_section{
+  padding: 4% 8%;
+}
+
+#s_p{
+  width: 35%;
+}
+
+/*join section*/
+.plus_join_section{
+  background-color:#98DFD51F;
+  ;
+}
+
+.p_wrapper{
+  width: 40%;
+  text-align: center;
+}
+.p_j{
+  font-size: 24px;
+  color: #022B69;
+  padding: 3% 8%;
+  width: 100%;
+  text-align: center;
+}
