@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*contact_us_section*/
+/* styles contact_us_section*/
 
 .contact_us_section {
     background: #ffffff;
@@ -13,19 +13,20 @@
 
 
 .heading {
-    background-image: url(assets/);
-    padding-left: 1% 8%;
-    align-items: center;
+    background-image: url(assets/Frame\ 9.png);
+    padding: 1% 8%;
+    padding-top: 2%;
+    
 }
 
 
 
 .heading2 {
-    align-items: center;
+   
     text-align: center;
     padding-left: 19%;
     padding-right: 30%;
-    padding-bottom: 10%;
+    padding-bottom: 1%;
 }
 
 .heading3 {
@@ -47,3 +48,92 @@
     color: #022b69;
     
 }
+
+.paragraph {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3C3536;
+    padding: 1% 8%;
+}
+
+
+/* styles contact_us_form*/
+
+
+.contact_us_form {
+    padding: 1% 8%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url(assets/bg\ form.png);
+    
+  }
+  .form_container {
+    flex: 2;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .form_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .form {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    width: Hug (164px);
+    height: Hug (41px);
+    padding: 10px 30px 10px 30px;
+    border-radius: 22px;
+    border: 0px 0px 3px 0px;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #F47676;
+  }
+  .cards_container {
+    width: Hug (381px);
+    height: Hug (593px);
+    top: 91px;
+    left: 928px;
+    gap: 28px;
+    margin-right: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
