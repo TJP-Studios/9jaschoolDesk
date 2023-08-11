@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="contact_us.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/Logo.png" alt="logo">
+        </div>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about-us.html">About</a>
+            <a href="./plus.html">Plus</a>
+            <a href="">Schools</a>
+            <a href="">Contact Us</a>
+            <a href="">Login</a>
+            <button>Sign Up</button>
+        </nav>
+    </header>
+    <main>
+
+        <section class="contact_us_section">
+            <div class="heading">
+
+
+                <h2 class="heading2">
+                    <span class="heading3">Contact </span> <span class="heading4">Us</span>
+                </h2>
+                <p class="paragraph">
+                    For every help or question you may want to ask <br> us  please use the contact form below we are <br>availabe
+                    to help at all time
+                </p>
+            </div>
+            <section class="contact_us_form">
+                <div class="form_container">
+                  <h3 class="form_title">Send us a mail</h3>
+                  <div class="form">
+                    <form>
+                     
+                      <input type="text" id="name" name="name" placeholder="Email address" required>
+                    
+                     
+                      <input type="text" id="email" name="email" placeholder="What is your subject" required>
+                    
+                      
+                      <select id="priority" name="priority">
+                        <option value="usa">Selcet priority</option>
+                        <option value="canada">High</option>
+                        <option value="uk">Medium</option>
+                        <option value="uk">Low</option>
+                        <!-- Add more options as needed -->
+                      </select>
+                    
+                      
+                      <select id="department" name="department">
+                        <option value="student">Departmentt</option>
+                        <option value="professional">Engeneering</option>
+                        <option value="self-employed">Mobile Apps</option>
+                        <option value="self-employed">Web Dev</option>
+                        <!-- Add more options as needed -->
+                      </select>
+                    
+                   
+                      <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                      <a href="#"><img src="assets/Frame 75.png" alt="image"></a>
+                      
+                    </form>
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+                <div class="cards_container">
+                  <div class="card">
+                    <h4>Phone Number</h4>
+                    <p>+234(901 2059 519)</p>
+                    <p>+234(704 7070 390)</p>
+                  </div>
+                  <div class="card">
+                    <h4>Address</h4>
+                    <p>735 Tehama Street</p>
+                    <p>San Francisco, California, 94103</p>
+                    <p>United States of America</p>
+                  </div>
+                  <div class="card">
+                    <h4>Email</h4>
+                    <p>Contact@9jaschooldesk.com</p>
+                    <p>Support@9jaschooldesk.com</p>
+                    <p>Info@9jaschooldesk.com</p>
+                  </div>
+                </div>
+              </section>
+        <section class="call-to-action">
+            <div class="cta_phones">
+                <img src="./assets/three-phones.png" alt="app display">
+            </div>
+            <div class="cta_text">
+                <p class="cta_p">Never miss a moment!. Stay engaged in your Childs growth, no matter how busy you are
+                </p>
+                <button class="cta_btn">
+                    <p>Download</p>
+                    <div class="icon-div"><img src="./assets/a1.png" alt="apple icon"></div>
+                    <div class="icon-div"><img src="./assets/a2.png" alt="play icon"></div>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-link-wrapper">
+            <div>
+                <p>Company</p>
+                <a href="">About Us</a>
+                <a href="">Press</a>
+                <a href="">Careers</a>
+                <a href="">Engineering</a>
+                <a href="">Accessibility</a>
+            </div>
+            <div>
+                <p>Resources</p>
+                <a href="">Big Ideas</a>
+                <a href="">Resources</a>
+                <a href="">Training</a>
+                <a href="">Remote Learning</a>
+                <a href="">Plus</a>
+            </div>
+            <div>
+                <p>Support</p>
+                <a href=""> Contact</a>
+                <a href=""> Privacy Center</a>
+                <a href=""> Terms of Service</a>
+                <a href=""> Product Privacy Policy</a>
+                <a href=""> Website Privacy Policy</a>
+
+            </div>
+            <div>
+                <p>Community</p>
+                <a href="">Teacher Community</a>
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+
+            </div>
+            <div>
+                <p>Download our App</p>
+                <div class="btn-wrap">
+                    <button id="play-store">
+                        <img src="./assets/play-store.png" alt="play store logo">
+                        <p>Play Store</p>
+                    </button>
+                    <button>
+                        <img src="./assets/apple.png" alt="play store logo">
+                        <p>App Store</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 9jaschooldesk, Inc</p>
+        </div>
+
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
