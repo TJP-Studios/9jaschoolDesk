@@ -4,46 +4,66 @@
     box-sizing: border-box;
 }
 
-/*Header*/
+
+
+/* NAVIGATION */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid whitesmoke;
-    padding: 1% 8%;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    padding: .5% 4rem .5% 6rem;
+    background-color: #ffffff;
+    border: 1px solid whitesmoke;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
 }
-
-.logo img{
-    width: 100%;
+.school-logo img{
+    width: 50%;
 }
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-    /* border: 1px solid red; */
+    width: fit-content;
 }
-
-nav a{
+nav ul li{
+    display: inline;
+    padding-left: 2.5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+nav ul li a{
     text-decoration: none;
     color: #3C3536;
 }
-
-nav button{
-    padding: 10px 30px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    background-color: #F47676;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 44px;
-    color: #ffffff;
-    border-bottom: 2px solid #022B69;
+nav ul li a span{
+    color: #3C3536;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.video-box img{
+    width: 100%;
+}
+.nav ul button{
+    margin-left: 1.5rem;
+    padding: .7rem 2rem;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    background: var(--orange-red, #F47676);
+    border-radius: 44px;
+    text-transform: capitalize;
+    cursor: pointer;
     font-weight: 500;
+    color: #FFF;
+    border: 1px solid #F47676;
+}
+.nav ul li a:hover{
+    text-decoration: underline solid #F47676;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+.nav ul li a span:hover{
+    text-decoration: underline solid #022B69;
+    text-decoration-thickness: 1px;
 }
 
 /*hero section*/
@@ -286,139 +306,21 @@ nav button{
 .check_p{
     width: 80%;
 }
+
 .check_p p{
     font-size: 19px;
     font-weight: 300;
     color: #3C3536;
 }
 
-/*call to action*/
-.call-to-action{
-    font-family: 'Poppins', sans-serif;
-    background-color: #F47676;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4%;
-    padding-left: 8%;
-    padding-right: 8%;
-    background-image: url('./assets/balloons-right-second.png');
-    background-repeat: no-repeat;
-    background-position: 0% 90%;
-}
 
-.cta_p{
-    color: #FFFFFF;
-    font-size: 35px;
-    font-weight: 900;
-}
+/* screen 1024px responsiveness 
+@media screen and (max-width:1024px) {
 
-.cta_phones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%;
-    margin-top: auto;
+    
 }
-.cta_phones img{
-    width: 100%;
+/* mobile view
+@media screen and (max-width:768px) {
+        
 }
-
-.cta_text{
-    width: 45%;
-}
-.cta_btn{
-    background-color: #F8F9FA;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #022B69;
-    padding: 1% 2.5%;
-    border-radius: 8px;
-    border: none;
-    margin-top: 3%;
-    cursor: pointer;
-}
-
-.cta_btn p{
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-}
-
-.icon-div{
-    width: 20%;
-}
-
-.icon-div img{
-    width: 100%;
-}
-
-
-/*footer*/
-
-footer{
-    background-color: #545382;
-    color: white;
-    padding-bottom: 1%;
-}
-.footer-link-wrapper
-{
-    display: flex;
-    justify-content: space-between;
-    padding: 1% 8%;
-    color: white;
-    flex-basis: 1;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.footer-link-wrapper div{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: space-between;
-}
-
-.footer-link-wrapper div > p{
-    font-size: 18px;
-    margin-bottom: 10%;
-    font-weight: 500;
-}
-
-.footer-link-wrapper div a{
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 3%;
-    font-weight: 400;
-}
-
-.footer-link-wrapper div button{
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 29px;
-    color: white;
-    text-align: center;
-    width: 116px;
-    height: 36.02px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
-}
-
-#play-store{
-    margin-bottom: 5%;
-}
-.footer-link-wrapper div button p{
-    font-size: 10px;
-}
-
-.copyright{
-    font-weight: 400;
-    text-align: center;
-}
-
+*/

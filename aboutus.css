@@ -8,47 +8,6 @@ body{
   
   max-width: 1440px;
 }
-
-/*Header*/
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid whitesmoke;
-  padding: 1% 8%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-
-.logo img {
-  width: 100%;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  /* border: 1px solid red; */
-}
-
-nav a {
-  text-decoration: none;
-  color: #3c3536;
-}
-
-nav button {
-  padding: 10px 30px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  background-color: #f47676;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 44px;
-  color: #ffffff;
-  border-bottom: 2px solid #022b69;
-  /* color: Orange red; */
-}
 /*main*/
 
 /*section1*/
