@@ -13,23 +13,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="school.css">
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="./assets/Logo.png" alt="logo">
-        </div>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about-us.html">About</a>
-            <a href="./plus.html">Plus</a>
-            <a href="">Schools</a>
-            <a href="">Contact Us</a>
-            <a href="">Login</a>
-            <button>Sign Up</button>
+        <div class="school-logo">
+              <img src="assets/Logo2.png" alt="">
+        </div> 
+ 
+        <input type="checkbox" id="checkbox">
+        <label class="hamburger" for="checkbox">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+        </label>
+ 
+        <nav class="nav">
+         <ul>
+             <li><a href="index.html">home</a></li>
+             <li><a href="about-us.html">about</a></li>
+             <li><a href="plus.html">plus</a></li>
+             <li><a href="school.html"><span>schools</span></a></li>
+             <li><a href="contact_us.html">contact us</a></li>
+             <li><a href="#">login</a></li>
+             <button>sign up</button>
+         </ul>
         </nav>
-    </header>
+ </header>
     <main>
         <section class="home_hero_section">
             <div class="top">
@@ -145,6 +156,10 @@
 
         </section>
         <section class="call-to-action">
+            <div class="balloons">
+                <img src="assets/balloons-right-second.png" alt="">
+            </div>
+       
             <div class="cta_phones">
                 <img src="./assets/three-phones.png" alt="app display">
             </div>
@@ -153,64 +168,84 @@
                 </p>
                 <button class="cta_btn">
                     <p>Download</p>
-                    <div class="icon-div"><img src="./assets/a1.png" alt="apple icon"></div>
-                    <div class="icon-div"><img src="./assets/a2.png" alt="play icon"></div>
+                    <div class="icon-div">
+                        <img src="./assets/a1.png" alt="apple icon">
+                    </div>
+                    <div class="icon-div">
+                        <img src="./assets/a2.png" alt="play icon">
+                    </div>
                 </button>
             </div>
-        </section>
+
+         </section>
     </main>
 
     <footer>
-        <div class="footer-link-wrapper">
-            <div>
-                <p>Company</p>
-                <a href="">About Us</a>
-                <a href="">Press</a>
-                <a href="">Careers</a>
-                <a href="">Engineering</a>
-                <a href="">Accessibility</a>
-            </div>
-            <div>
-                <p>Resources</p>
-                <a href="">Big Ideas</a>
-                <a href="">Resources</a>
-                <a href="">Training</a>
-                <a href="">Remote Learning</a>
-                <a href="">Plus</a>
-            </div>
-            <div>
-                <p>Support</p>
-                <a href=""> Contact</a>
-                <a href=""> Privacy Center</a>
-                <a href=""> Terms of Service</a>
-                <a href=""> Product Privacy Policy</a>
-                <a href=""> Website Privacy Policy</a>
-
-            </div>
-            <div>
-                <p>Community</p>
-                <a href="">Teacher Community</a>
-                <a href="">Facebook</a>
-                <a href="">Twitter</a>
-                <a href="">Instagram</a>
-
-            </div>
-            <div>
-                <p>Download our App</p>
-                <div class="btn-wrap">
-                    <button id="play-store">
-                        <img src="./assets/play-store.png" alt="play store logo">
-                        <p>Play Store</p>
-                    </button>
-                    <button>
-                        <img src="./assets/apple.png" alt="play store logo">
-                        <p>App Store</p>
-                    </button>
-                </div>
-            </div>
+        <div class="foot-content">
+            <h3>company</h3>
+            <p>about us</p>
+            <p>press</p>
+            <p>careers</p>
+            <p>engineering</p>
+            <p>accessibility</p>
         </div>
-        <div class="copyright">
-            <p>&copy; 9jaschooldesk, Inc</p>
+        <div class="foot-content">
+            <h3>resources</h3>
+            <p>big ideas</p>
+            <p>resources</p>
+            <p>training</p>
+            <p>remote learning</p>
+            <p>plus</p>
+        </div>
+        <div class="foot-content">
+            <h3>support</h3>
+            <p>contact</p>
+            <p>privacy center</p>
+            <p>terms of service</p>
+            <p>product privacy policy</p>
+            <p>website privacy policy</p>
+            
+         <div class="foot-text">
+            <p>© 9jaschooldesk, Inc</p>
+         </div>
+         
+        </div>
+        <div class="foot-content">
+            <h3>community</h3>
+            <p>teacher</p>
+            <p>community</p>
+            <p>facebook</p>
+            <p>twitter</p>
+            <p>instagram</p>
+        </div>
+        <div class="app-content">
+            <h3>download our app</h3>
+
+           <div class="click">
+            <div class="click-me">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" viewBox="0 0 19 19" fill="none">
+                    <g clip-path="url(#clip0_1256_1039)">
+                      <path d="M10.7024 9.14213L13.3479 6.84034C8.51585 4.35069 1.37575 0.698171 0.972239 0.645935L0.939941 0.648817L10.7024 9.14213Z" fill="#08B059"/>
+                      <path d="M0.354387 1.15834L0.351074 1.18626V18.1178L0.35418 18.1446L10.1166 9.65147L0.354387 1.15834Z" fill="#1BB899"/>
+                      <path d="M10.7034 10.1622L0.941406 18.6553L0.972048 18.6584C1.37743 18.6022 8.51628 14.9514 13.3477 12.4629L10.7034 10.1622Z" fill="#F04F3E"/>
+                      <path d="M17.7425 9.11167C17.7425 9.11167 16.2162 8.31949 14.0852 7.22038L11.2896 9.65276L14.0839 12.0839C16.2156 10.9846 17.7425 10.1924 17.7425 10.1924C18.0752 10.0404 18.3636 9.9505 18.3636 9.65204C18.3636 9.35375 18.0357 9.25126 17.7425 9.11167Z" fill="#F99C1C"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1256_1039">
+                        <rect width="18.0124" height="18.0124" fill="white" transform="translate(0.351074 0.645966)"/>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <p>Play Store</p>
+            </div>
+            <div class="click-me">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" viewBox="0 0 23 22" fill="none">
+                    <path d="M16.2449 11.5375C16.2364 10.0979 16.8887 9.01297 18.2058 8.21296C17.4692 7.15754 16.3546 6.57707 14.8855 6.46519C13.4945 6.35543 11.9726 7.27575 11.4153 7.27575C10.8264 7.27575 9.47966 6.50319 8.42003 6.50319C6.2332 6.53696 3.90918 8.24673 3.90918 11.7254C3.90918 12.7534 4.09704 13.8151 4.47277 14.9085C4.97515 16.3481 6.78624 19.8753 8.67544 19.8183C9.6633 19.7951 10.362 19.1175 11.6475 19.1175C12.895 19.1175 13.5409 19.8183 14.6428 19.8183C16.5488 19.7909 18.1868 16.5845 18.6639 15.1407C16.1077 13.9354 16.2449 11.6114 16.2449 11.5375ZM14.0264 5.09948C15.0966 3.82876 14.9995 2.67203 14.9678 2.2562C14.0222 2.31108 12.9288 2.9 12.3061 3.62401C11.62 4.4008 11.2169 5.36123 11.3034 6.44408C12.3251 6.52218 13.258 5.99659 14.0264 5.09948Z" fill="white"/>
+                  </svg>
+                  <p>App Store</p>
+                
+            </div>
+           </div>
         </div>
 
     </footer>
