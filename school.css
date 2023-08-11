@@ -56,9 +56,14 @@ nav ul li a span{
     border-radius: 44px;
     text-transform: capitalize;
     cursor: pointer;
+    transition: all .4s ease-in-out;
     font-weight: 500;
     color: #FFF;
-    border: 1px solid #F47676;
+    border: transparent;
+}
+.nav ul button:hover{
+    background-color: #FFF;
+    color: #F47676;
 }
 .nav ul li a:hover{
     text-decoration: underline solid #F47676;
@@ -383,9 +388,16 @@ footer p{
             position: fixed;
             left: -100%;
             z-index: 10;
+            text-transform: uppercase;
+            font-size: 1.3rem;
             width: 70%;
             top: 0;
             transition: all .5s ease-in;
+        }
+        nav ul li a span{
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            color: white;
         }
         .hamburger{
             position: relative;
