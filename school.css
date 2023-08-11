@@ -56,13 +56,21 @@ nav ul li a span{
     border-radius: 44px;
     text-transform: capitalize;
     cursor: pointer;
-    transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
     font-weight: 500;
     color: #FFF;
     border: transparent;
+    border: 1px solid #F47676;
+}
+.nav ul button a{
+    text-decoration: none;
+    color: #FFF;
 }
 .nav ul button:hover{
     background-color: #FFF;
+    border: 1px solid #F47676;
+}
+.nav ul button:hover a{
     color: #F47676;
 }
 .nav ul li a:hover{
@@ -429,15 +437,18 @@ footer p{
             width: 45px;
             border-radius: 8px;
             background-color: #F47676;
+            
         }
         .line:not(:last-child){
             margin-bottom: 5px;
         }
         .line:nth-child(2){
             width: 35px;
+            margin-left: 10px;
         }
         .line:nth-child(3){
             width: 25px;
+            margin-left: 20px;
         }
         #checkbox:checked ~ .nav{
             left: 0;
@@ -447,11 +458,13 @@ footer p{
         }
         #checkbox:checked ~ .hamburger .line:nth-child(2){
             width: 0;
+            margin-left: 0;
         }
         
         #checkbox:checked ~ .hamburger .line:last-child{
             transform: rotate(-135deg) translateY(10px);
             width: 45px;
+            margin-left: 0;
         }
         .school-page-text{
             flex-direction: column;
