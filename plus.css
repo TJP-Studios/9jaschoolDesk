@@ -286,3 +286,24 @@ input:checked+.slider:before {
   width: 100%;
   text-align: center;
 }
+.price_card.left{
+  text-align: left;
+}
+
+.p_bottom{
+  display: flex;
+}
+/* screen 1024px responsiveness 
+@media screen and (max-width:1024px) {
+  *{
+    border: 1px solid blue;
+  }
+    
+}
+*/
+/* mobile view */
+@media screen and (max-width:768px) {
+  *{
+    border: 1px solid blue;
+  }
+}
