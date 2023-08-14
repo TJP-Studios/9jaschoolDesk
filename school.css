@@ -68,6 +68,7 @@ nav ul li a span{
 }
 .nav ul button:hover{
     background-color: #FFF;
+    color: #F47676;
     border: 1px solid #F47676;
 }
 .nav ul button:hover a{
@@ -233,6 +234,7 @@ main{
     padding: 10px 30px;
     align-items: flex-start;
     gap: 10px;
+    cursor: pointer;
     border-bottom: 2px solid #022B69;
     background: var(--orange-red, #F47676);
 }
@@ -343,7 +345,7 @@ footer p{
 }
 
 /* screen 1024px responsiveness */
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1160px) {
     header{
     padding: 1%;
     }
@@ -391,7 +393,7 @@ footer p{
     
 }
 /* mobile view*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:1020px) {
         .nav{
             position: fixed;
             left: -100%;

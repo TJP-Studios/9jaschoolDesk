@@ -2,212 +2,222 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="school.css">
-    <link rel="stylesheet" href="contact_us.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="school.css">
+  <link rel="stylesheet" href="contact_us.css">
 </head>
 
 <body>
-    <header>
-        <div class="school-logo">
-              <img src="assets/Logo2.png" alt="">
-        </div> 
- 
-        <input type="checkbox" id="checkbox">
-        <label class="hamburger" for="checkbox">
-             <div class="line"></div>
-             <div class="line"></div>
-             <div class="line"></div>
-        </label>
- 
-        <nav class="nav">
-         <ul>
-             <li><a href="index.html">home</a></li>
-             <li><a href="about-us.html">about</a></li>
-             <li><a href="plus.html">plus</a></li>
-             <li><a href="school.html"><span>schools</span></a></li>
-             <li><a href="contact_us.html">contact us</a></li>
-             <li><a href="login.html">login</a></li>
-             <button>sign up</button>
-         </ul>
-        </nav>
- </header>
-    <main>
+  <header>
+    <div class="school-logo">
+      <img src="assets/Logo2.png" alt="">
+    </div>
 
-        <section class="contact_us_section">
-            <div class="heading">
+    <input type="checkbox" id="checkbox">
+    <label class="hamburger" for="checkbox">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about-us.html">about</a></li>
+        <li><a href="plus.html">plus</a></li>
+        <li><a href="school.html">schools</a></li>
+        <li><a href="contact_us.html">contact us</a></li>
+        <li><a href="login.html">login</a></li>
+        <button>sign up</button>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <section class="contact_us_section">
+      <div class="heading">
+        <h2 class="heading2">
+          <span class="heading3">Contact </span> <span class="heading4">Us</span>
+        </h2>
+        <p class="paragraph">
+          For every help or question you may want to ask <br> us please use the contact form below we are <br>availabe
+          to help at all time
+        </p>
+      </div>
+      <section class="contact_us_form">
+        <div class="form_container">
+          <h3 class="form_title">Send us a mail</h3>
+          <div class="form">
+            <form>
+
+              <input type="text" id="name" name="name" placeholder="Email address" required>
 
 
-                <h2 class="heading2">
-                    <span class="heading3">Contact </span> <span class="heading4">Us</span>
-                </h2>
-                <p class="paragraph">
-                    For every help or question you may want to ask <br> us  please use the contact form below we are <br>availabe
-                    to help at all time
-                </p>
+              <input type="text" id="email" name="email" placeholder="What is your subject" required>
+
+
+              <select class="opt" id="priority" name="priority">
+                <option value="usa">Select priority</option>
+                <option value="canada">High</option>
+                <option value="uk">Medium</option>
+                <option value="uk">Low</option>
+                <!-- Add more options as needed -->
+              </select>
+
+
+              <select class="opt" id="department" name="department">
+                <option value="student">Department</option>
+                <option value="professional">Engineering</option>
+                <option value="self-employed">Mobile Apps</option>
+                <option value="self-employed">Web Dev</option>
+                <!-- Add more options as needed -->
+              </select>
+
+
+              <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+              <a href="#"><img src="assets/Frame 75.png" alt="image"></a>
+
+            </form>
+            <div class="btn-div">
+              <button type="submit">Send Message</button>
             </div>
-            <section class="contact_us_form">
-                <div class="form_container">
-                  <h3 class="form_title">Send us a mail</h3>
-                  <div class="form">
-                    <form>
-                     
-                      <input type="text" id="name" name="name" placeholder="Email address" required>
-                    
-                     
-                      <input type="text" id="email" name="email" placeholder="What is your subject" required>
-                    
-                      
-                      <select id="priority" name="priority">
-                        <option value="usa">Selcet priority</option>
-                        <option value="canada">High</option>
-                        <option value="uk">Medium</option>
-                        <option value="uk">Low</option>
-                        <!-- Add more options as needed -->
-                      </select>
-                    
-                      
-                      <select id="department" name="department">
-                        <option value="student">Departmentt</option>
-                        <option value="professional">Engeneering</option>
-                        <option value="self-employed">Mobile Apps</option>
-                        <option value="self-employed">Web Dev</option>
-                        <!-- Add more options as needed -->
-                      </select>
-                    
-                   
-                      <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
-                      <a href="#"><img src="assets/Frame 75.png" alt="image"></a>
-                      
-                    </form>
-                    <button type="submit">Send Message</button>
-                  </div>
-                </div>
-                <div class="cards_container">
-                  <div class="card">
-                    <h4>Phone Number</h4>
-                    <p>+234(901 2059 519)</p>
-                    <p>+234(704 7070 390)</p>
-                  </div>
-                  <div class="card">
-                    <h4>Address</h4>
-                    <p>735 Tehama Street</p>
-                    <p>San Francisco, California, 94103</p>
-                    <p>United States of America</p>
-                  </div>
-                  <div class="card">
-                    <h4>Email</h4>
-                    <p>Contact@9jaschooldesk.com</p>
-                    <p>Support@9jaschooldesk.com</p>
-                    <p>Info@9jaschooldesk.com</p>
-                  </div>
-                </div>
-              </section>
-              <section class="call-to-action">
-                <div class="balloons">
-                    <img src="assets/balloons-right-second.png" alt="">
-                </div>
-           
-                <div class="cta_phones">
-                    <img src="./assets/three-phones.png" alt="app display">
-                </div>
-                <div class="cta_text">
-                    <p class="cta_p">Never miss a moment!. Stay engaged in your Childs growth, no matter how busy you are
-                    </p>
-                    <button class="cta_btn">
-                        <p>Download</p>
-                        <div class="icon-div">
-                            <img src="./assets/a1.png" alt="apple icon">
-                        </div>
-                        <div class="icon-div">
-                            <img src="./assets/a2.png" alt="play icon">
-                        </div>
-                    </button>
-                </div>
-    
-             </section>
-    </main>
+          </div>
+        </div>
+        <div class="cards_container">
+          <div class="card">
+            <h4>Phone Number</h4>
+            <p>+234(901 2059 519)</p>
+            <p>+234(704 7070 390)</p>
+          </div>
+          <div class="card">
+            <h4>Address</h4>
+            <p>735 Tehama Street</p>
+            <p>San Francisco, California, 94103</p>
+            <p>United States of America</p>
+          </div>
+          <div class="card">
+            <h4>Email</h4>
+            <p>Contact@9jaschooldesk.com</p>
+            <p>Support@9jaschooldesk.com</p>
+            <p>Info@9jaschooldesk.com</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="call-to-action">
+      <div class="balloons">
+        <img src="assets/balloons-right-second.png" alt="">
+      </div>
 
-    <footer>
-        <div class="foot-content">
-            <h3>company</h3>
-            <p>about us</p>
-            <p>press</p>
-            <p>careers</p>
-            <p>engineering</p>
-            <p>accessibility</p>
-        </div>
-        <div class="foot-content">
-            <h3>resources</h3>
-            <p>big ideas</p>
-            <p>resources</p>
-            <p>training</p>
-            <p>remote learning</p>
-            <p>plus</p>
-        </div>
-        <div class="foot-content">
-            <h3>support</h3>
-            <p>contact</p>
-            <p>privacy center</p>
-            <p>terms of service</p>
-            <p>product privacy policy</p>
-            <p>website privacy policy</p>
-            
-         <div class="foot-text">
-            <p>© 9jaschooldesk, Inc</p>
-         </div>
-         
-        </div>
-        <div class="foot-content">
-            <h3>community</h3>
-            <p>teacher</p>
-            <p>community</p>
-            <p>facebook</p>
-            <p>twitter</p>
-            <p>instagram</p>
-        </div>
-        <div class="app-content">
-            <h3>download our app</h3>
+      <div class="cta_phones">
+        <img src="./assets/three-phones.png" alt="app display">
+      </div>
+      <div class="cta_text">
+        <p class="cta_p">Never miss a moment!. Stay engaged in your Childs growth, no matter how busy you are
+        </p>
+        <button class="cta_btn">
+          <p>Download</p>
+          <div class="icon-div">
+            <img src="./assets/a1.png" alt="apple icon">
+          </div>
+          <div class="icon-div">
+            <img src="./assets/a2.png" alt="play icon">
+          </div>
+        </button>
+      </div>
 
-           <div class="click">
-            <div class="click-me">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" viewBox="0 0 19 19" fill="none">
-                    <g clip-path="url(#clip0_1256_1039)">
-                      <path d="M10.7024 9.14213L13.3479 6.84034C8.51585 4.35069 1.37575 0.698171 0.972239 0.645935L0.939941 0.648817L10.7024 9.14213Z" fill="#08B059"/>
-                      <path d="M0.354387 1.15834L0.351074 1.18626V18.1178L0.35418 18.1446L10.1166 9.65147L0.354387 1.15834Z" fill="#1BB899"/>
-                      <path d="M10.7034 10.1622L0.941406 18.6553L0.972048 18.6584C1.37743 18.6022 8.51628 14.9514 13.3477 12.4629L10.7034 10.1622Z" fill="#F04F3E"/>
-                      <path d="M17.7425 9.11167C17.7425 9.11167 16.2162 8.31949 14.0852 7.22038L11.2896 9.65276L14.0839 12.0839C16.2156 10.9846 17.7425 10.1924 17.7425 10.1924C18.0752 10.0404 18.3636 9.9505 18.3636 9.65204C18.3636 9.35375 18.0357 9.25126 17.7425 9.11167Z" fill="#F99C1C"/>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_1256_1039">
-                        <rect width="18.0124" height="18.0124" fill="white" transform="translate(0.351074 0.645966)"/>
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <p>Play Store</p>
-            </div>
-            <div class="click-me">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" viewBox="0 0 23 22" fill="none">
-                    <path d="M16.2449 11.5375C16.2364 10.0979 16.8887 9.01297 18.2058 8.21296C17.4692 7.15754 16.3546 6.57707 14.8855 6.46519C13.4945 6.35543 11.9726 7.27575 11.4153 7.27575C10.8264 7.27575 9.47966 6.50319 8.42003 6.50319C6.2332 6.53696 3.90918 8.24673 3.90918 11.7254C3.90918 12.7534 4.09704 13.8151 4.47277 14.9085C4.97515 16.3481 6.78624 19.8753 8.67544 19.8183C9.6633 19.7951 10.362 19.1175 11.6475 19.1175C12.895 19.1175 13.5409 19.8183 14.6428 19.8183C16.5488 19.7909 18.1868 16.5845 18.6639 15.1407C16.1077 13.9354 16.2449 11.6114 16.2449 11.5375ZM14.0264 5.09948C15.0966 3.82876 14.9995 2.67203 14.9678 2.2562C14.0222 2.31108 12.9288 2.9 12.3061 3.62401C11.62 4.4008 11.2169 5.36123 11.3034 6.44408C12.3251 6.52218 13.258 5.99659 14.0264 5.09948Z" fill="white"/>
-                  </svg>
-                  <p>App Store</p>
-                
-            </div>
-           </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-content">
+      <h3>company</h3>
+      <p>about us</p>
+      <p>press</p>
+      <p>careers</p>
+      <p>engineering</p>
+      <p>accessibility</p>
+    </div>
+    <div class="foot-content">
+      <h3>resources</h3>
+      <p>big ideas</p>
+      <p>resources</p>
+      <p>training</p>
+      <p>remote learning</p>
+      <p>plus</p>
+    </div>
+    <div class="foot-content">
+      <h3>support</h3>
+      <p>contact</p>
+      <p>privacy center</p>
+      <p>terms of service</p>
+      <p>product privacy policy</p>
+      <p>website privacy policy</p>
+
+      <div class="foot-text">
+        <p>© 9jaschooldesk, Inc</p>
+      </div>
+
+    </div>
+    <div class="foot-content">
+      <h3>community</h3>
+      <p>teacher</p>
+      <p>community</p>
+      <p>facebook</p>
+      <p>twitter</p>
+      <p>instagram</p>
+    </div>
+    <div class="app-content">
+      <h3>download our app</h3>
+
+      <div class="click">
+        <div class="click-me">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" viewBox="0 0 19 19" fill="none">
+            <g clip-path="url(#clip0_1256_1039)">
+              <path
+                d="M10.7024 9.14213L13.3479 6.84034C8.51585 4.35069 1.37575 0.698171 0.972239 0.645935L0.939941 0.648817L10.7024 9.14213Z"
+                fill="#08B059" />
+              <path d="M0.354387 1.15834L0.351074 1.18626V18.1178L0.35418 18.1446L10.1166 9.65147L0.354387 1.15834Z"
+                fill="#1BB899" />
+              <path
+                d="M10.7034 10.1622L0.941406 18.6553L0.972048 18.6584C1.37743 18.6022 8.51628 14.9514 13.3477 12.4629L10.7034 10.1622Z"
+                fill="#F04F3E" />
+              <path
+                d="M17.7425 9.11167C17.7425 9.11167 16.2162 8.31949 14.0852 7.22038L11.2896 9.65276L14.0839 12.0839C16.2156 10.9846 17.7425 10.1924 17.7425 10.1924C18.0752 10.0404 18.3636 9.9505 18.3636 9.65204C18.3636 9.35375 18.0357 9.25126 17.7425 9.11167Z"
+                fill="#F99C1C" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1256_1039">
+                <rect width="18.0124" height="18.0124" fill="white" transform="translate(0.351074 0.645966)" />
+              </clipPath>
+            </defs>
+          </svg>
+          <p>Play Store</p>
         </div>
+        <div class="click-me">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" viewBox="0 0 23 22" fill="none">
+            <path
+              d="M16.2449 11.5375C16.2364 10.0979 16.8887 9.01297 18.2058 8.21296C17.4692 7.15754 16.3546 6.57707 14.8855 6.46519C13.4945 6.35543 11.9726 7.27575 11.4153 7.27575C10.8264 7.27575 9.47966 6.50319 8.42003 6.50319C6.2332 6.53696 3.90918 8.24673 3.90918 11.7254C3.90918 12.7534 4.09704 13.8151 4.47277 14.9085C4.97515 16.3481 6.78624 19.8753 8.67544 19.8183C9.6633 19.7951 10.362 19.1175 11.6475 19.1175C12.895 19.1175 13.5409 19.8183 14.6428 19.8183C16.5488 19.7909 18.1868 16.5845 18.6639 15.1407C16.1077 13.9354 16.2449 11.6114 16.2449 11.5375ZM14.0264 5.09948C15.0966 3.82876 14.9995 2.67203 14.9678 2.2562C14.0222 2.31108 12.9288 2.9 12.3061 3.62401C11.62 4.4008 11.2169 5.36123 11.3034 6.44408C12.3251 6.52218 13.258 5.99659 14.0264 5.09948Z"
+              fill="white" />
+          </svg>
+          <p>App Store</p>
 
-    </footer>
+        </div>
+      </div>
+    </div>
 
-    <script src="scripts.js"></script>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 
 </html>
