@@ -310,7 +310,7 @@ input:checked+.slider:before {
 
 .table_div{
   margin-bottom: 3%;
-  width: 100%;
+  width: 40%;
 }
 
 .table_div img{
@@ -397,5 +397,8 @@ input:checked+.slider:before {
     }
     .check_p p{
       width: 100%;
+    }
+    .table_div{
+      width: 80%;
     }
 }

@@ -147,7 +147,6 @@ h4{
   .cards_container {
     font-family: Poppins;
     align-items: center;
-    border: 1px solid blue;
     width: 100%;
     top: 91px;
     left: 928px;
@@ -194,6 +193,8 @@ h4{
 /* mobile view */
 @media screen and (max-width:768px) {
     .card {
+      display: flex;
+      flex-direction: column;
     text-align: center;
 
   }
